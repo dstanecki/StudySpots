@@ -1,0 +1,23 @@
+{
+  "name": "2022-team06w",
+  "version": "1.0.0",
+  "description": "## Members Joseph Griffith, jgriffith@hawk.iit.edu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illinoistech-itm/2022-team06w.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illinoistech-itm/2022-team06w/issues"
+  },
+  "homepage": "https://github.com/illinoistech-itm/2022-team06w#readme",
+  "dependencies": {
+    "server.js": "^1.0.0",
+    "start": "^5.1.0"
+  }
+}

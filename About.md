@@ -1,0 +1,4 @@
+
+# About our Project
+
+Our proposed site will be an application where student users can reserve study spaces on campus. This system will work by having users log in with their student credentials and search through locations on campus to find a study space that suits their needs. They will be shown a picture of the space as well as be able to filter these spaces by narrowing them down through criteria. Users will then choose a space along with a time and this will be stored in a database and viewable to others so that time slots will not be double booked. Also implemented will be an admin side of the project where administrators will be able to interact more heavily with the site and view more information.
