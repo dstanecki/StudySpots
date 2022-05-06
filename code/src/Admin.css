@@ -1,0 +1,23 @@
+.h1 {
+  text-align: center;
+}
+
+.headings {
+  width: 95%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.table-heading {
+  font-weight: bold;
+  float: left;
+  margin: auto;
+  /* padding: ; */
+}
+
+.headings > div {
+  float: left;
+  margin: auto;
+}

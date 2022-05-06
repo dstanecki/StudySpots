@@ -1,0 +1,46 @@
+.reserve { 
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.reserve h1 {
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+.form {
+    padding: 15em;
+    padding-top: 2em;
+    padding-bottom: 25em;
+    display: inline-block;
+    text-align: left;
+    border: solid;
+    border-width: 1em;
+    border-style: groove;
+    color: black;
+}
+
+.button {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.form div {
+    padding: .5em;
+}
+
+.form label {
+    font-size: x-large;
+}
+
+.form input {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .form label {
+        font-size: calc(10px + 0.75vw);
+    }
+    .button {
+        font-size: calc(10px + 0.75vw);
+    }
+  }

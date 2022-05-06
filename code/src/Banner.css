@@ -1,0 +1,68 @@
+.banner {
+  display: block;
+  position: relative;
+  background-repeat: repeat;
+  background-position: right;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 10vh;
+  height: 10vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5vh;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner__info > button {
+  margin-top: 10px;
+  background-color: #d12030;
+  color: white;
+  text-transform: inherit;
+  font-weight: 600;
+  font-size: calc(16px);
+}
+
+.banner__info > button:hover {
+  color: #d12030;
+  background-color: white;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #d12030 !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .banner__info > button {
+    font-size: calc(4px + 0.75vw);
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .banner__info {
+    height: auto;
+  }
+}

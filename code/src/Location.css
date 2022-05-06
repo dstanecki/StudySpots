@@ -1,0 +1,84 @@
+.locationPage {
+  display: inline;
+  float: middle;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.nameBox > h1 {
+  font-size: 75px;
+}
+
+.image > img {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  width: 1000px;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.reserveButton > button {
+  font-size: calc(8px + 0.75vw);
+  margin: 20px;
+  background-color: #d12030;
+  color: white;
+  text-transform: inherit;
+  font-weight: 600;
+}
+
+.reserveButton > button:hover {
+  color: #d12030;
+  background-color: white;
+}
+
+/* Removing until I figure out how to display next to image
+.facilities {
+  text-align: left;
+  float: right;
+  padding-top: 300px;
+  padding-right: 550px;
+}
+*/
+
+.facilities > p {
+  font-size: 25px;
+}
+
+.facilities > h2 {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .image > img {
+    object-fit: contain;
+    /* width: auto; */
+    max-width: 100%;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .nameBox > h1 {
+    font-size: calc(30px + 0.75vw);
+  }
+  .reserveButton > button {
+    font-size: calc(10px + 0.75vw);
+  }
+  .facilities > p {
+    font-size: calc(10px + 0.75vw);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .image > img {
+    margin-top: 0px;
+    border-radius: 0px;
+    height: 400px;
+  }
+  .facilities > p {
+    font-size: calc(6px + 0.75vw);
+  }
+}

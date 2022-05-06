@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #d12030;
+  height: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header__icon {
+  width: 10vw;
+  max-width: 90px;
+  min-width: 25px;
+}
+
+.header__center {
+  padding-left: 152.5px;
+  max-width: fit-content;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.header__right {
+  padding: 25px;
+  display: flex;
+}
+
+.admin-button .MuiButton-label {
+  color: white;
+  cursor: pointer;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.MuiAvatar-circular {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__center {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .admin-button .MuiButton-label {
+    font-size: calc(6px + 0.75vw);
+  }
+}

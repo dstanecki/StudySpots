@@ -1,0 +1,26 @@
+.admin-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  width: 95%;
+  /* padding: 20px; */
+  padding-top: 20px;
+  border: 1px solid lightgray;
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: black 0px 0px 5px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+.admin-card > div {
+  float: left;
+  /* margin: auto; */
+}
+
+.admin-card:hover {
+  background-color: rgb(236, 175, 175);
+}
